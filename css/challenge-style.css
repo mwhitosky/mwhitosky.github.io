@@ -3,6 +3,35 @@ html {
     font-size: 1.5rem;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
+a {
+  background-color: #4400ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 9px #7e7bff;
+}
+
+a:hover {
+  background-color: #04a3ff;
+}
+
+a:active {
+  box-shadow: none;
+  top:5px;
+}
+
 site-intro {
     display: block;
     font-size: 1.25rem;
