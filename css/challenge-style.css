@@ -3,6 +3,9 @@ html {
     font-size: 1.5rem;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color:aquamarine
+    font-family 'Arial Black', Gadget, sans-serif;
 }
