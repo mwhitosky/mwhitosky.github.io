@@ -55,7 +55,7 @@ h2 {
 }
 
 h2::before {
-    content: "\128018";
+    content: "&#x1F98D;"
   font-size: 3rem;
 }
 
