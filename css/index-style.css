@@ -27,7 +27,7 @@ h3 {
 }
 
 .assignments li::before {
-    content: "&#127755";
+    content: "&#x1F98D;"
     font-size: 2.5rem;
 }
 
