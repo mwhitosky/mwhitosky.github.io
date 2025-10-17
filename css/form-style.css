@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*:before ,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-image: url(1024px-Interior_of_the_sebel_hotel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background attachment: fixed;
+
+}
+
+#wrapper {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 2rem;
+  
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1bdf73;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #119138;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.policies {
+  margin-bottom: 2rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+  padding-left: 3rem;
+}
+
+label,
+span{
+    display: inline-block;
+    border: greenyellow 1px solid
+    margin-right: 20px;
+    width: 250px;
+    text-align: right;
+}
+
+.radio-label {
+    width: 12px;
+  }
+
+  span {
+margin-top: 20px;
+margin-bottom: 20px;
+  }
+
+  input[type=text],
+  input[type=email], 
+  input[type=tel],
+  input[type=date],
+  input[type=number],
+  input[type=file],
+  input[type=password],
+ input[type=checkbox] {
+ padding: 10px;
+ margin: 8px 0;
+ border: none;
+  border-radius: 8px;
+}
+
+textarea {
+    border-radius: 8px;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+select {
+  height: 20px;
+}
+
+button {
+    display: block;
+    margin: 2rem auto 0 auto;
+    padding: 0.7rem 2rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #1bdf73;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type=submit] {
+  margin-top: 2rem;
+}

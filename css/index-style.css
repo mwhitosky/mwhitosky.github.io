@@ -1,0 +1,64 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    color: #0a4985;
+}
+
+body {
+    background-image: url(snow.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background attachment: fixed;
+
+}
+h1,
+h2,
+h3 {
+    color: rgb(40, 78, 122);
+    font-family: 'Arial Black', Gadget, sans-serif;
+    text-decoration: double underline rgba(36, 39, 85, 0.5) 5px;
+    text-underline-offset: 0.5rem;
+}
+
+.assignments li {
+    list-style-type: none;
+}
+
+.assignments li::before {
+    content: "&#127755";
+    font-size: 2.5rem;
+}
+
+.assignments a:link,
+.assignments a:visited {
+    color: #132c44;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 3px;
+}
+
+.assignments a:hover,
+.assignments a:active {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h2::before {
+    content: "\128018";
+  font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
