@@ -27,8 +27,8 @@ h3 {
 }
 
 .assignments li::before {
-    content: "&#x1F98D;"
-    font-size: 3rem;
+    content: "\1F98D";
+    font-size: 2.5rem;
 }
 
 .assignments a:link,
@@ -52,11 +52,12 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
+    text-decoration: none;
 }
 
-h2::before {
-    content: "&#x1F98D;"
-  font-size: 3rem;
+h2::before,
+h2::after {
+    content: "❄️";
 }
 
 h3 {
