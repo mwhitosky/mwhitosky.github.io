@@ -52,12 +52,21 @@ nav a:active {
 }
 
 main {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 1rem;
     background-color: rgb(255, 248, 220);
     border: 2px solid rgb(255, 222, 173);
     border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.25rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: rgb(104, 60, 4);
+    margin-bottom: 0.5rem;
 }
 
 h2{
@@ -72,20 +81,35 @@ header {
 }
 
 img {
-    max-width: 70%;
+    max-width: 30%;
     height: auto;
     display: block;
-    margin: 0 auto 1rem auto;
-    border-radius: 10px;
+    margin-right: 5%;
+    float: left;  
+    border-radius: 50%;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    shape-outside: circle(45%);
 }
 
 .rate {
-    font-size: .8rem;
-    font-weight: bold;
-    color: rgb(112, 91, 23);
-    margin-bottom: 1rem;
+    clear:both;
+    margin-top: 6%;
     text-align: center;
+    font-size: 1.2rem;
+}
+
+.ingredients,
+.details,
+.instructions,
+.nutrition {
+    width: 50%;
+    float: right; 
+}
+
+.ingredients,
+.details, {
+    margin-right: 6%;
+    margin-left: 2%; 
 }
 
 footer {
@@ -98,15 +122,20 @@ footer {
 }
 
 blockquote {
-    font-style: italic;
+  clear:both;
+    font-family: 'Rancho', cursive;
+    font-size: 1rem;
+    width: 300px;
+    height: 280px;
     text-align: center;
     margin: 2rem auto;
     padding: 1rem;
-  
-    background-color: rgb(255, 248, 220);
+    background-color: rgb(255, 232, 141);
     border-radius: 10px;
     max-width: 600px;
     outline: dashed rgb(252, 221, 174);
+    outline-offset: 10px;
+    margin: 50px auto;
 }
 
 footer {
