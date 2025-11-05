@@ -172,3 +172,108 @@ footer p {
   text-align: center;
   margin-top: 10px;
 }
+
+/* media queries go below */
+
+@media (max-width: 810px)
+  html {
+    line-height: 100%;
+  }
+
+  img {
+      float: none;
+      max-width: 50%;
+      margin-left: 25%;
+      border-radius: 25%;
+    }
+
+    .details,
+    .ingredients,
+    .instructions,
+    .nutrition {
+        float: none;
+        width: 90%;
+    }
+    blockquote {
+        max-width: 40%;
+        max-height: auto;
+    }
+
+    h1 {
+        font-size: 1rem;
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        text-decoration: underline;
+        color:rgb(0, 216, 216)
+    }
+    
+    .col1,
+    .col2,
+    .col3 {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+
+
+@media (max-width: 360px) {
+    html {
+        line-height: 135%;
+    }
+
+    nav a {
+        padding: 5px;
+        letter-spacing: normal;
+        font-size: 0.9rem; 
+    }
+
+    nav ul {
+        padding-left: 10px;
+    }
+
+    main {
+      width: 90%;
+    }
+
+    h1 {
+        font-size: 1rem;
+        text-shadow: none;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    img {
+      float: none;
+      max-width: 60%;
+margin-left: 20%;
+    }
+
+    .details,
+    .ingredients,
+    .instructions,
+    .nutrition {
+        float: none;
+        width: 90%;
+    }
+
+    blockquote {
+        max-width: 80%;
+        max-height: auto;
+    }
+
+    .col1,
+    .col2,
+    .col3 {
+        display: block;
+        width: 90%;
+        float: none;
+
+    }
+}
