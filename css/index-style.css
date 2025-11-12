@@ -3,6 +3,7 @@ html {
     font-size: 1.5rem;
     line-height: 1.25;
     color: #0a4985;
+    text-align: center;
 }
 
 body {
@@ -11,8 +12,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background attachment: fixed;
-
 }
+section {
+    background-image: url(snow02.gif);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+    
 h1,
 h2,
 h3 {
@@ -20,6 +27,7 @@ h3 {
     font-family: 'Arial Black', Gadget, sans-serif;
     text-decoration: double underline rgba(36, 39, 85, 0.5) 5px;
     text-underline-offset: 0.5rem;
+    text-align: center;
 }
 
 .assignments li {
@@ -37,7 +45,7 @@ h3 {
     text-decoration: none;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 3px;
-}
+    }
 
 .assignments a:hover,
 .assignments a:active {
@@ -50,14 +58,30 @@ h1 {
     font-size: 2rem;
 }
 
-h2 {
-    font-size: 1.5rem;
-    text-decoration: none;
+.fade-text {
+    animation: fadeTxt linear 4s 1s;
+animation-fill-mode: forwards; /*Makes it stay after animation */
 }
 
-h2::before,
-h2::after {
-    content: "❄️";
+@keyframes fadeTxt {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 2.75rem
+    }
+    100% {
+        opacity: 1;
+        font-size: 3rem;}
+    }
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h2::before {
+    content: "\128018";
+  font-size: 3rem;
 }
 
 h3 {
