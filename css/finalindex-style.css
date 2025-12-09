@@ -1,0 +1,88 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    line-height: 1.25;
+    color: #a8ff1b;
+    text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left: 40px;
+  overflow: hidden;
+  display: flex;
+justify-content: center;
+    gap: 50px;
+}
+
+    body {
+  background-image: -o-linear-gradient(30deg, rgb(30, 228, 30),rgb(255, 39, 85));
+  background-image: linear-gradient(60deg, rgb(14, 255, 46),rgb(255, 12, 12));
+}
+    
+h1,
+h2 {
+    color: rgb(255, 177, 8);
+    font-family: rancho, Gadget, sans-serif;
+    text-align: center;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a {
+  background-color: #926504;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 80px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+  cursor: pointer;
+  position: relative;
+  -webkit-box-shadow: 0 9px #472509;
+          box-shadow: 0 9px #4d2c02;
+}
+
+.assignments li {
+    list-style-type: none;
+}
+
+.assignments li::before {
+    content: " ►► ";
+    font-size: 2.5rem;
+}
+
+.assignments a:link,
+.assignments a:visited {
+    color: #45f300;
+    text-decoration: none;
+    font-family:rancho, Gadget, sans-serif;
+    font-weight: 2.5px;
+    font-size: 1.5rem;
+    }
+
+.assignments a:hover,
+.assignments a:active {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+footer {
+    font-size: .5rem;
+    line-height: 1;
+}

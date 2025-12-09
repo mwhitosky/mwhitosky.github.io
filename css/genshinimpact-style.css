@@ -1,0 +1,123 @@
+html {
+    font-family: impact, Helvetica, sans-serif; /*Genshin "Impact" lol*/
+    font-size: 3rem;
+    line-height: 1.25;
+    color: #332d8b;
+    text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  font-family: HYWenHei-85W;
+  margin: 0 auto;
+  padding-left: 40px;
+  overflow: hidden;
+  display: flex;
+justify-content: center;
+    gap: 50px;
+}
+
+body {
+background-image: linear-gradient(60deg, rgb(104, 216, 250),rgb(0, 92, 20)), url(leaves-8724.gif); /*leaves fall in background*/
+background-repeat: no-repeat;
+background-blend-mode: lighten;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+a {
+  background-color: #926504;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 80px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+  cursor: pointer;
+  position: relative;
+  -webkit-box-shadow: 0 9px #472509;
+          box-shadow: 0 9px #4d2c02;
+}
+
+h1 {
+    color: rgb(0, 2, 117);
+    font-family: HYWenHei-85W;
+    font-style: italic;
+    text-align: center;
+    text-shadow: #040042;
+    padding: 2%;
+    margin: 2rem auto;
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(218, 255, 227);
+    border-radius: 50px;
+    max-width: 700px;
+    border-style: groove;
+    border-color: rgb(19, 75, 33);
+}
+
+
+h2 {
+    color: rgb(0, 2, 117);
+    font-family: HYWenHei-85W;
+    text-align: center;
+    padding: 2%;
+    margin: 2rem auto;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border-style: groove;
+    max-width: 700px;
+}
+
+.Features {
+    text-align: left;
+    margin: 0 auto;
+    width: 1000px;
+    padding: 20px;
+    border-radius: 25px;
+    max-width: 1300px;
+    background-color: rgba(231, 255, 220, 0.8);
+}
+
+.MyExperience {
+    text-align: left;
+    width: 700px;
+    padding: 20px;
+    border-radius: 55px;
+    max-width: 900px;
+    background-color: rgba(166, 201, 151, 0.8);
+    float: right;
+}
+
+blockquote {
+    font-size: 24px;
+    font-style: italic;
+    color: #040042;
+    margin: 50px auto;
+    padding: 20px;
+    margin: 2rem auto;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 50%;
+    float: right; 
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40%;
+    border-radius: 25px;
+    display: block;
+
+}
+
+footer p {
+    font-size: 20px;
+    color: #040042;
+}
